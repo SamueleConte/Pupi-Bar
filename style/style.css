@@ -1,0 +1,19 @@
+.allineaCentro{
+    text-align: center;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cadetblue;
+    text-shadow: "25%";
+    border: 1cap solid cadetblue;
+    background-color: bisque;
+}
+
+img + br + strong{
+    color: brown;
+}
+
+ul{
+    color: cadetblue;
+}
