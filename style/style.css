@@ -1,0 +1,164 @@
+img + br + strong{
+    color: brown;
+}
+
+img {
+    border: 2px solid red;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+ul{
+    background-color: white;
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(247, 247, 247); /* Colore di sfondo */
+    font-family: 'Arial', sans-serif; /* Font per il testo */
+    text-align: center;
+
+}
+
+/* Stile generale del navbar */
+.navbar {
+    background-color: #000000; /* Colore di sfondo */
+    overflow: hidden; /* Nasconde il contenuto in eccesso */
+    display: flex; /* Usa Flexbox per il layout */
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+}
+
+/* Link all'interno del navbar */
+.navbar a {
+    display: block; /* Rende i link dei blocchi */
+    color: white; /* Colore del testo */
+    padding: 14px 20px; /* Spaziatura */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+/* Effetto al passaggio del mouse */
+.navbar a:hover {
+    background-color: #ddd; /* Colore di sfondo al passaggio del mouse */
+    color: black; /* Colore del testo al passaggio del mouse */
+}
+
+/* Stile attivo per il link corrente */
+.navbar a.active {
+    background-color: #4CAF50; /* Colore di sfondo attivo */
+    color: white; /* Colore del testo attivo */
+}
+
+footer, header{
+    text-align: justify;
+    background-color:cadetblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.service {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.service h2 {
+    color: #4CAF50;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #6a11cb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(106,17,203,0.3);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
